@@ -25,7 +25,7 @@ hard reset: $$v(t+1)=v_{temp}(t+1)*(1-\theta)$$
 The major bottleneck of the spiking neuron network is how to acquire a well-performance SNN, especially on a complex dataset, since directly using the backpropagation algorithm is not suitable for SNN.  
 Currently, two ways can effectively obtain excellent SNNs: surrogate gradient and ANN to SNN. ANN to SNN means converting a well-performed source ANN to a target SNN. Surrogate gradient methods use a soft relaxed function to replace the hard step function and train SNN by BPTT.
 
-### ANN to SNN
+### ANN to SNN 
 In this subsection, We use the soft reset and IF model ($$\alpha=1$$) to reduce the information loss between the source ANN and target SNN. Our approach is based on threshold-balancing method, which contain three steps:  
 1. Train the source ANN that only contains Convolutional, average pooling, fully connected layer, and ReLU activation function. Record the maximum activation of each layer.
 2. Copy the network parameter to target SNN and replace the ReLU function with the IF model. The threshold of each layer is setting to the maximum activation.
@@ -33,7 +33,7 @@ In this subsection, We use the soft reset and IF model ($$\alpha=1$$) to reduce 
 
 The converted SNN needs thousands of simulation time to achieve the same accuracy as source ANN, which does not meet the high-efficiency characteristics. So our work is to explore how to obtain higher accuracy, and lower inference latency converted SNN.  
 
-#### [Layer-wise conversion error](https://openreview.net/forum?id=FZ1oTwcXchK)
+#### [Layer-wise conversion error (ICLR 2021)](https://openreview.net/forum?id=FZ1oTwcXchK)
 We split the conversion error into clipping error and flooring error. When the source ANN activation is larger than $$V_{th}$$, 
 the SNN neuron's output is smaller than the output of the source neuron (clipping). And the reason for the flooring error is that
 SNN can't send accurate values to the next layer. The threshold balancing method can eliminate the clipping error since 
@@ -53,7 +53,7 @@ end for
 {% endhighlight %}
 
 
-#### [Layer-wise Caibration](https://arxiv.org/abs/2106.06984)
+#### [Layer-wise Caibration (ICML 2021)](https://arxiv.org/abs/2106.06984)
 
 **Adaptive threshold.** We found that threshold balancing will cause a considerable flooring error, 
 especially when the simulation length is not enough, since it uses the maximum activation as the SNN's threshold. 
@@ -102,7 +102,7 @@ Surrogate gradient methods use a soft relaxed function to replace the hard step 
 There are many shapes of surrogate gradients, like rectangles, exponential, and triangles. 
 But during the training process, the surrogate gradient is always optimal? 
 
-#### [Dspike]: under review
+#### [Dspike for SNN Flexibility (NeurIPS 2021)](https://openreview.net/pdf?id=H4e7mBnC9f0)
 Here we propose a new family of Differentiable Spike (Dspike) functions that can adaptively evolve during training to 
 find the optimal shape and smoothness for gradient estimation. Mathmatically, Dspike function is like:
 
