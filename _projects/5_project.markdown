@@ -6,8 +6,6 @@ img: /assets/img/bci_cover.jpeg
 importance: 3
 category: explore
 ---
-'''We aim at a stronger and smarter brain with ethical practise. More details will be included when suitable.'''
-
 Building computational models for the human perception system is an important step towards the ultimate goal of better understanding human intelligence and guiding artificial intelligence engineering.
 
 Neural responses in the visual cortex were recorded using functional neuroimaging when participants were watching naturalistic videos. (Algonauts Challenge 2021) 
