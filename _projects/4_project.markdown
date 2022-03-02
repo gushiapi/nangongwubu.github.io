@@ -7,12 +7,10 @@ importance: 3
 category: explore
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="https://arxiv.org/abs/2112.13593">
+<div class="col-sm mt-3 mt-md-0">
+    <a href="https://arxiv.org/abs/2112.13593">
         <img class="img-fluid rounded z-depth-0" src="{{ '/assets/img/stockPrediction.png' | relative_url }}" alt="" title="stock_prediction"/>
-        </a>
-    </div>
+    </a>
 </div>
 <div class="caption">
     Schematics of Multi-modal Attention Network for Stock Movements Prediction (He et. al., 2022)
