@@ -11,6 +11,7 @@ category: explore
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://arxiv.org/abs/2112.13593">
         <img class="img-fluid rounded z-depth-0" src="{{ '/assets/img/stockPrediction.png' | relative_url }}" alt="" title="stock_prediction"/>
+        </a>
     </div>
 </div>
 <div class="caption">
