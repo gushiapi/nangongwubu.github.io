@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Congratuate on the recently accepted papers!
-date: 2022-03-03 16:11:00-0400
+date: 2022-03-03
 inline: false
 ---
 
