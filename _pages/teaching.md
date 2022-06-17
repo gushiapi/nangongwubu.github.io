@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: I am teaching courses in artificial intelligence and network neuroscience. 
 nav: true
 ---
