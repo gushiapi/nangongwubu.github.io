@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /team/
-title: tteam
+title: team
 description: team members 
 nav: true
 ---
