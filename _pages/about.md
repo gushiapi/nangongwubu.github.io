@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 ===description: <a href="https://faculty.uestc.edu.cn/gushi/zh_CN/index.htm">Department of Computer Science @ UESTC</a>.
 
