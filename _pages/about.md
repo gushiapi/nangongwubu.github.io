@@ -9,10 +9,7 @@ profile:
   image: gus-photo.jpg
   address: 
     <center>
-    <p>Qingshuihe Campus</p>
-    <p>Main Building B1-405</p>
-    <p>No.2006 Xiyuan Ave.</p>
-    <p>Chengdu, China</p>
+    <p> [Google Scholar](https://scholar.google.com/citations?user=9_jlOXUAAAAJ&hl=en)</p>
     </center>
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
