@@ -19,3 +19,8 @@ I introduced both fundamental and developed knowledge on applying control theory
 This is an invited talk at [TEDxChengdu](https://www.ted.com/tedx/events/29576). I talked about some basic knowledge about neurodevelopment and imagine about how
 we can revolutionate our brain with future techniques. <br/><br/>
 [https://www.bilibili.com/video/BV1Kt411t79d?from=search&seid=18025788227941622856](https://www.bilibili.com/video/BV1Kt411t79d?from=search&seid=18025788227941622856)<br/>
+
+#### Modularization for Brain and Brain-inspired Neural Networks.<br/>
+This is an invited talk by [Beijing Academy of Artificial Intelligence](https://www.baai.ac.cn/english.html). I covered our past work in network neuroscience, current work in spiking neural networks and proposed some plans for future. <br/><br/>
+[https://www.bilibili.com/video/BV1Te4y1a7Ln?spm_id_from=333.999.0.0&vd_source=207b83e62b604ffd9e68f36580f33bd3](https://www.bilibili.com/video/BV1Te4y1a7Ln?spm_id_from=333.999.0.0&vd_source=207b83e62b604ffd9e68f36580f33bd3)
+<br/>
